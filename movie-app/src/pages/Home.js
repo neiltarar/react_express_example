@@ -12,7 +12,7 @@ const Home = ({name}) => {
         e.preventDefault()
         const form = e.target
         const movieSearch = Object.fromEntries(new FormData(form))
-        // console.log(data)
+   
         const response = await fetch('/api/search-movie', {
             method: "POST",
             headers: {'Content-Type': 'application/json'},
