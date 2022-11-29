@@ -37,4 +37,3 @@ app.post('/api/search-movie', async (req, res) => {
 //   app.get('/*', (req, res) => {
 //     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 //   });
-// http://www.omdbapi.com/?i=tt3896198&apikey=721ba629
